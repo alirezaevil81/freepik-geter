@@ -1,0 +1,35 @@
+{
+  "name": "alirezaevil81/freepik-geter",
+  "description": "Get photos and vectors and.... from the Freepik site",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "alirezaevil81",
+      "email": "alirezask385@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "guzzlehttp/guzzle": "7.9.x-dev",
+    "php-http/message": "1.x-dev",
+    "psr/http-message": "^2.0@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Src\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "dump": "composer dump-autoload",
+    "serv": "php -S localhost:8000 src/index.php --dev"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.1@dev"
+  }
+}
