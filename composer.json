@@ -1,8 +1,8 @@
 {
   "name": "alirezaevil81/freepik-geter",
   "description": "Get photos and vectors and.... from the Freepik site",
-  "minimum-stability": "dev",
-  "license": "proprietary",
+  "minimum-stability": "stable",
+  "license": "MIT",
   "authors": [
     {
       "name": "alirezaevil81",
@@ -19,8 +19,5 @@
     "psr-4": {
       "Src\\": "src/"
     }
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^11.1@dev"
   }
 }
