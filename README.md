@@ -2,7 +2,7 @@
 
 <p align="center">
 <img alt="PHP " src="https://img.shields.io/badge/PHP--Guzzle-4F5B93">
-<img alt="license Mit" src="https://img.shields.io/badge/license-Mit-green">
+<img alt="license Mit" src="https://img.shields.io/badge/license-MIT-green">
 
 </p>
 
