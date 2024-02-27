@@ -8,7 +8,7 @@ class UriBuilder
 {
     use HasFilters;
 
-    public $uri;
+    protected $uri;
 
     /**
      * @param $term
