@@ -20,11 +20,6 @@
       "Src\\": "src/"
     }
   },
-  "autoload-dev": {
-    "psr-4": {
-      "Tests\\": "tests/"
-    }
-  },
   "scripts": {
     "dump": "composer dump-autoload",
     "serv": "php -S localhost:8000 src/index.php --dev"
