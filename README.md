@@ -10,29 +10,33 @@
 
 ## 📸 Get photos and vectors and.... from the Freepik site
 
-
 ### Api : Made by 🔗[API Freepik](https://docs.freepik.com/).
 
 ### Options :
 
 ---
-| Options            | Description                                                        |
-|--------------------|--------------------------------------------------------------------|
-| resources          | Get a list of resources paginated by different filters             |
-| resources-detail   | Get a list of resources paginated by different filters             |
-| resources-download | Download a resource                                                |
+
+| Options                      | Description                                                        |
+|------------------------------|--------------------------------------------------------------------|
+| resources                    | Get a list of resources paginated by different filters             |
+| resources-detail             | Get a list of resources paginated by different filters             |
+| resources-download           | Download a resource                                                |
 | resources-download-by-format | Download a specific format of a resource by its id and format type |
-| plan | Get the details of the plan the developer has                      |
-| plan-usage | Get the plan usage by developer                                    |
-| icons | Get a list of icons paginated by different filters.                |
-| icon-detail | Get icon detail                                                    |
-| icons-download | Download icon                                                      |
+| plan                         | Get the details of the plan the developer has                      |
+| plan-usage                   | Get the plan usage by developer                                    |
+| icons                        | Get a list of icons paginated by different filters.                |
+| icon-detail                  | Get icon detail                                                    |
+| icons-download               | Download icon                                                      |
 
 ### how to use
 
 ---
 
-1.install: `composer require alirezaevil81/freepik-geter`
+1.install by composer:
+
+```shell
+composer require alirezaevil81/freepik-geter
+```
 
 2.signup or login www.freepik.com and get your api key on www.freepik.com/api
 
@@ -51,6 +55,7 @@ $freepik->resources(1, 'car', 4, 'random')->orientation(true)->quickEdit(false)-
 ```
 
 Save the `jpg` image in the `img` folder
+
 ```php
 $freepik->resourceDownloadByFormat('13240356', 'jpg')->request()->getResourceByFormat('img');
 ```
